@@ -1,5 +1,5 @@
 # Snapchat Political Ads Project
-### By: Ronaldo Romano and Jason Sheu
+**By: Ronaldo Romano and Jason Sheu**
 
 ## Summary of Findings
 
