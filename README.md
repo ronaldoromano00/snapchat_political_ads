@@ -1,7 +1,7 @@
 # Snapchat Political Ads Project
-### by: Ronaldo Romano and Jason Sheu
+### By: Ronaldo Romano and Jason Sheu
 
-# Summary of Findings
+## Summary of Findings
 
 ### Introduction
 <span style="color:Red">**The Investigative Questions**</span>
@@ -58,7 +58,7 @@ The second question we posed was: <span style="color:Red">**"Are the Regions (In
 ### Fairness Evaluation
 > In our fairness evaluation, we decided to test to see if the precision of our model would be better or worse on 2 subsets of the original dataset: short ads and long ads. The reason we chose to use precision score was to see whether having a short or long ad influenced the model in predicting that a company with below average spend was actually spending above average spend. To do this, we calculated the observed difference in precision between short ads and long ads, which was a difference of 0.004777839618733903. To see if our model is biased towards either short ads or long ads, we performed a permutation test with a significance level of 0.05. Our null hypothesis is that our model is fair and the precision for our two subsets of data are roughly the same. Our alternative hypothesis is that our model is unfair, the precision of the long ad subset is higher than the short ad subset. After performing our permutation test 1000 times, we got a p-value of <span style="color:Red">**0.978**</span>, which leads us to fail to reject the null hypothesis. Our observed data is not statistically unusual enough to verify the alternative hypothesis. As a result of this permutation test, we conclude that our model is fair and not biased towards the length of an ad.
 
-# Code
+## Code
 
 
 ```python
